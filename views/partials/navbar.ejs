@@ -1,0 +1,10 @@
+<nav class="navbar">
+    <a href="/" class="logo">Indika <span>Gadol</span></a>
+    <ul class="nav-links">
+        <li><a href="/" class="nav-link <%= page === 'home' ? 'active' : '' %>">Home</a></li>
+        <li><a href="/products" class="nav-link <%= page === 'products' ? 'active' : '' %>">Products</a></li>
+        <li><a href="/about" class="nav-link <%= page === 'about' ? 'active' : '' %>">About Us</a></li>
+        <li><a href="/contact" class="nav-link <%= page === 'contact' ? 'active' : '' %>">Contact</a></li>
+    </ul>
+    <a href="/contact" class="btn btn-primary">Get a Quote</a>
+</nav>

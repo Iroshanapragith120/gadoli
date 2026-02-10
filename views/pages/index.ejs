@@ -1,0 +1,92 @@
+<%- include('../partials/head') %>
+    <%- include('../partials/navbar') %>
+
+        <header class="hero">
+            <div class="animate">
+                <h1>Building Your Dream <br>With <span style="color: var(--primary)">Strong Bricks</span></h1>
+                <p>Premium quality red clay bricks for lasting construction. We deliver strength, durability, and trust
+                    to your doorstep.</p>
+                <div class="hero-buttons">
+                    <a href="/products" class="btn btn-primary">View Products</a>
+                    <a href="/contact" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+        </header>
+
+        <section id="features">
+            <h2 class="section-title">Why Choose Us?</h2>
+            <p class="section-subtitle">We build trust with every brick we supply.</p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-cube feature-icon"></i>
+                    <h3>High Quality</h3>
+                    <p>Made from the finest clay, ensuring maximum strength and durability for your construction needs.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-truck feature-icon"></i>
+                    <h3>Fast Delivery</h3>
+                    <p>We deliver island-wide with our reliable transport fleet. On time, every time.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-tags feature-icon"></i>
+                    <h3>Best Price</h3>
+                    <p>Direct from the manufacturer pricing. Unbeatable value for the quality provided.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="featured-products">
+            <h2 class="section-title">Our Top Products</h2>
+            <p class="section-subtitle">Quality you can see and feel.</p>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1590074072782-eeb6642d992f?auto=format&fit=crop&q=80"
+                        alt="Red Clay Brick" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Standard Red Brick</h3>
+                        <span class="product-price">Rs. 35.00</span>
+                        <p class="product-desc">Standard size burnt clay bricks suitable for walls and foundations.</p>
+                        <a href="/contact" class="btn btn-primary"
+                            style="font-size: 0.8rem; padding: 0.5rem 1.5rem;">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1629910815598-c11649232924?auto=format&fit=crop&q=80"
+                        alt="Wire Cut Brick" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Wire Cut Brick</h3>
+                        <span class="product-price">Rs. 45.00</span>
+                        <p class="product-desc">Smooth finish high-strength bricks for exposed walls and aesthetic
+                            designs.</p>
+                        <a href="/contact" class="btn btn-primary"
+                            style="font-size: 0.8rem; padding: 0.5rem 1.5rem;">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1518709414768-a8c79bda20e7?auto=format&fit=crop&q=80"
+                        alt="Cement Block" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Cement Block</h3>
+                        <span class="product-price">Rs. 65.00</span>
+                        <p class="product-desc">High density cement blocks for rapid construction and load bearing
+                            walls.</p>
+                        <a href="/contact" class="btn btn-primary"
+                            style="font-size: 0.8rem; padding: 0.5rem 1.5rem;">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" style="background: var(--primary); text-align: center; margin-bottom: 0;">
+            <h2 style="color: white; margin-bottom: 1rem;">Ready to Start Building?</h2>
+            <p style="color: rgba(255,255,255,0.8); margin-bottom: 2rem;">Contact us today for a free quotation and
+                delivery schedule.</p>
+            <a href="/contact" class="btn btn-outline" style="border-color: white; color: white;">Get in Touch</a>
+        </section>
+
+        <%- include('../partials/footer') %>

@@ -1,0 +1,73 @@
+<%- include('../partials/head') %>
+    <%- include('../partials/navbar') %>
+
+        <section style="padding-top: 8rem;">
+            <h1 class="section-title">Contact Us</h1>
+            <p class="section-subtitle">Get in touch for orders and inquiries</p>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; max-width: 1200px; margin: 0 auto;">
+
+                <!-- Contact Info -->
+                <div>
+                    <div style="margin-bottom: 3rem;">
+                        <h3 style="margin-bottom: 1rem; color: var(--primary);">Visit Our Yard</h3>
+                        <p style="display: flex; gap: 1rem; align-items: center;">
+                            <i class="fas fa-map-marker-alt" style="color: var(--accent);"></i>
+                            No. 123, Temple Road, Anuradhapura
+                        </p>
+                    </div>
+
+                    <div style="margin-bottom: 3rem;">
+                        <h3 style="margin-bottom: 1rem; color: var(--primary);">Call Us</h3>
+                        <p style="display: flex; gap: 1rem; align-items: center; margin-bottom: 0.5rem;">
+                            <i class="fas fa-phone-alt" style="color: var(--accent);"></i>
+                            +94 77 123 4567
+                        </p>
+                        <p style="display: flex; gap: 1rem; align-items: center;">
+                            <i class="fas fa-phone-alt" style="color: var(--accent);"></i>
+                            +94 71 987 6543
+                        </p>
+                    </div>
+
+                    <div style="margin-bottom: 3rem;">
+                        <h3 style="margin-bottom: 1rem; color: var(--primary);">Email Us</h3>
+                        <p style="display: flex; gap: 1rem; align-items: center;">
+                            <i class="fas fa-envelope" style="color: var(--accent);"></i>
+                            info@indikagadol.lk
+                        </p>
+                    </div>
+
+                    <!-- Map Placeholder -->
+                    <div
+                        style="width: 100%; height: 250px; background: #2c3e50; border-radius: 15px; display: flex; align-items: center; justify-content: center;">
+                        <p style="color: #aaa;"><i class="fas fa-map"></i> Google Map Integration</p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="tel" class="form-control" placeholder="Enter your phone number">
+                        </div>
+                        <div class="form-group">
+                            <label>Email (Optional)</label>
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label>Message / Order Details</label>
+                            <textarea class="form-control" placeholder="Tell us what you need..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <%- include('../partials/footer') %>
